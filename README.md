@@ -52,8 +52,12 @@ Pour obtenir la liste des paramètres et des informations les concernant :
 ```
 python pytorch.py -h
 ```
+Un exemple de commande pour entraîner son réseau de neuronnes pendant 4000 époques : 
+```
+python pytorch.py filename.mat -e 4000
+```
 
-Le dossier logs contiendra des graphiques générées grâce à matplotlib, sur le cout, taux de reussite 
+Le dossier logs contiendra des graphiques générées grâce à matplotlib, sur le coût, taux de reussite 
 de l'ensemble d'entrainement et le taux de reussite de l'ensemble de validation. 
 
 Le dossier checkpoints contiendra la sauvegarde de l'etat du réseau lorsque le meilleur taux de reussite 
