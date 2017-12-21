@@ -41,7 +41,7 @@ Pour visualiser il faut executer, dans le répertoire courant à tf.py, la comma
 ```
 tensorboard --logdir=./logs
 ```
-et se rendre ensuite sur le [port 6006 local](http://localhost:6006/).
+et se rendre ensuite sur le [port 6006 local](http://localhost:6006/). Il semble que l'affichage des arrêtes du graphe bug sur Chrome, utilisez Firefox à la place.
 
 Le dossier checkpoints contiendra la sauvegarde de l'etat du réseau lorsque le meilleur taux de reussite 
 dans l'ensemble de validation a été trouvé.
