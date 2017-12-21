@@ -1,4 +1,4 @@
-# Learning-with-Feature-Fide-Information
+# Learning-with-Feature-Side-Information
 Travail de Bachelor
 
 Joao Antonio Candido Ramos
